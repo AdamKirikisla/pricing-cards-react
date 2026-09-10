@@ -1,7 +1,7 @@
 # Pricing Cards React
 
 <p align="center">
-  <img src="./favicon.svg" alt="React logo" width="96" height="96" />
+  <img src="./pricing-cards-react/favicon.svg" alt="React logo" width="96" height="96" />
 </p>
 
 <h3 align="center">A clean, data-driven pricing card interface</h3>
