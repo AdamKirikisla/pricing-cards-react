@@ -1,6 +1,29 @@
+:root{
+    --desc-color: rgb(111, 104, 98);
+}
+
 body{
     margin: 0;
 }
+
+header{
+    text-align: center;
+}
+
+
+h1{
+    font-weight: bold;
+    letter-spacing: -0.03em; 
+    font-size: 3.8rem;
+    
+}
+
+
+.description{
+    color: var(--desc-color);
+    font-size: 1.3rem;
+}
+
 .container {
 
     margin-top: 80px;
@@ -21,6 +44,24 @@ body{
 
 .price-container{
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.35rem;
+    width: 100%;
+}
+
+.price{
+    margin: 0;
+    font-weight: bold;
+    font-size: 3.8rem;
+}
+
+.desc{
+    color: var(--desc-color);
+}
+.user{
+    margin: 0;
+    color: var(--desc-color);
 }
 
 .specs-container{
@@ -35,20 +76,30 @@ body{
     gap: 2rem;
     min-width: 240px;
 }
+.specs-container p span:last-child {
+  font-weight: bold;
+}
 
 .buttonText{
-    margin-top: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem ;
     border-radius: 0.4em;
     border: 1px solid black;
-    padding: 12px;
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     width: 250px;
-    margin-bottom: 15px;
+    
 }
 .buttonText:hover{
     cursor: pointer;
     background-color: black;
     color: white;
+}
+
+footer{
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--desc-color);
 }
