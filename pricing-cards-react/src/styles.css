@@ -15,6 +15,7 @@ h1{
     font-weight: bold;
     letter-spacing: -0.03em; 
     font-size: 3.8rem;
+    font-family: "Space Grotesk", sans-serif;
     
 }
 
@@ -22,6 +23,7 @@ h1{
 .description{
     color: var(--desc-color);
     font-size: 1.3rem;
+    font-family: "JetBrains Mono", monospace;
 }
 
 .container {
@@ -41,7 +43,9 @@ h1{
      border: 2px solid black;
      border-radius: 32px;
 }
-
+.title{
+    font-family: "JetBrains Mono", monospace;
+}
 .price-container{
     display: flex;
     justify-content: center;
@@ -54,14 +58,18 @@ h1{
     margin: 0;
     font-weight: bold;
     font-size: 3.8rem;
+    font-family: "Space Grotesk", sans-serif;
+    
 }
 
 .desc{
     color: var(--desc-color);
+    font-family: "Space Grotesk", sans-serif;
 }
 .user{
     margin: 0;
     color: var(--desc-color);
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .specs-container{
@@ -76,8 +84,12 @@ h1{
     gap: 2rem;
     min-width: 240px;
 }
+.specs-container p span:first-child {
+        font-family: "Space Grotesk", sans-serif;
+}
 .specs-container p span:last-child {
   font-weight: bold;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .buttonText{
@@ -90,6 +102,8 @@ h1{
     font-size: 1rem;
     font-weight: 500;
     width: 250px;
+    font-family: "Space Grotesk", sans-serif;
+    
     
 }
 .buttonText:hover{
@@ -102,4 +116,5 @@ footer{
     margin-top: 5rem;
     text-align: center;
     color: var(--desc-color);
+    font-family: "JetBrains Mono", monospace;
 }
