@@ -35,3 +35,20 @@ body{
     gap: 2rem;
     min-width: 240px;
 }
+
+.buttonText{
+    margin-top: 25px;
+    border-radius: 0.4em;
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.buttonText:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
