@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './Components/Header'
 import Entry from './Components/Entry'
+import Footer from './Components/Footer'
 import data from './data/data'
 
 
@@ -22,6 +23,7 @@ const entryElements = data.map((entry) => {
     <main className='container'>
       {entryElements}
     </main>
+    <Footer></Footer>
     </>
   )
   
