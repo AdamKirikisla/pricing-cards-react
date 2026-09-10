@@ -19,7 +19,7 @@ const entryElements = data.map((entry) => {
   return(
     <>
     <Header></Header>
-    <main>
+    <main className='container'>
       {entryElements}
     </main>
     </>
